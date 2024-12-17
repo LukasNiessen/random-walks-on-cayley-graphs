@@ -43,9 +43,7 @@ One famous result in this field is [Pólya’s theorem](https://en.wikipedia.org
 
 Our interest lies in determining this critical value for random walks on Cayley graphs, which are graphs associated with groups and their generators. It turns out that this critical value is deeply connected to 'how fast the graph grows'. The main theorem of this thesis establishes that, for Cayley graphs with finite generating sets, the critical value is exactly the exponential growth rate of the graph. Here is a simplified version of the main theorem.
 
-```
-Let M_n be the number of nodes with distance n to the root. Then the 'exponential-decay random walk' described above on an infinite Cayley graph has a critical value identical to the exponential growth rate of the graph.
-```
+> Let M_n be the number of nodes with distance n to the root. Then the 'exponential-decay random walk' described above on an infinite Cayley graph has a critical value identical to the exponential growth rate of the graph.
 
 To prove this, we will analyze a subtree of the graph. Our theory primarily involves electrical network theory, focusing on concepts such as finite energy flows and admissible flows. However, we also use results from probability theory, group theory, and discrete mathematics. The main theorem is particularly interesting because it builds a bridge between group structure and probability theory. It has several applications; one example is making dimension statements in the context of derived trees (see Chapter _Derived Trees_ in [MR3616205](http://dx.doi.org/10.1017/9781316672815)).
 
