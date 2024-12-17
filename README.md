@@ -17,9 +17,10 @@ This repository is part of my bachelor thesis and contains Python scripts for si
 
 ## Overview of Files
 
-- on_integer_lattices.py: Simulates simple random walks on ℤ, ℤ², and ℤ³.
-- on_some_graph.py: Allows custom graph creation for random walks. You can define your own graph by specifying nodes and edges or you can also choose a predefined graph.
-- on_cayley_graph.py: Simulates random walks on the Cayley graph of the group ℤ/nℤ with the generating set {+1, -1}. You can either have a simple random walk or an "RW_lambda" random walk, which is central to the thesis's main theorem. For details please look at the comments at the top of the file.
+- **on_integer_lattices.py**: Simulates simple random walks on ℤ, ℤ², and ℤ³.
+- **on_some_graph.py**: Allows custom graph creation for random walks. You can define your own graph by specifying nodes and edges or you can also choose a predefined graph.
+- **on_cayley_graph_Zn.py**: Simulates random walks on the Cayley graph of the group ℤ/nℤ with the generating set {+1, -1}. You can either have a simple random walk or an "RW_lambda" random walk, which is central to the thesis's main theorem. For details please look at the comments at the top of the file.
+- **on_cayley_graph_Dn.py**: Simulates random walks on the Cayley graph of the dihedral group Dn with the generating set {a, b} where a is a rotation and b is deflection. You can either have a simple random walk or an "RW_lambda" random walk, which is central to the thesis's main theorem. For details please look at the comments at the top of the file.
 
 ## Usage
 
