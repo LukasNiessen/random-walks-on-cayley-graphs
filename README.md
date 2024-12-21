@@ -2,7 +2,7 @@
 
 ## Bachelor Thesis Lukas Nießen
 
-This repository is part of my bachelor thesis and contains Python scripts for simulating random walks on graphs. This includes integer lattices, custom graphs, and Cayley graphs. These simulations are meant to give an intuitive understanding of the topic.
+This repository is part of my bachelor thesis and contains Python scripts for simulating random walks on graphs. This includes integer lattices, custom graphs, and Cayley graphs. These simulations are meant to give an intuitive understanding of the topic. You can find the thesis [here in PDF format](/bachelor_thesis_lukas_niessen_random_walks_on_cayley_graphs.pdf).
 
 ## Prerequisites
 
