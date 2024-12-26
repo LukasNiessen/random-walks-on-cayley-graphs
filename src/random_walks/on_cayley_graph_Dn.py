@@ -16,7 +16,7 @@ You will encounter the phenomena described in my thesis. This illustrates nicely
 very informally, the definition of the critical value.
 """
 use_lambda_rw = True
-lambd = 1.000001  # lambda > 1
+lambd = 17  # lambda > 1
 
 
 class DihedralGraphWalk:
@@ -137,5 +137,5 @@ class DihedralGraphWalk:
 
 import math
 
-graph_walk = DihedralGraphWalk(n=16)
-graph_walk.random_walk(start_node=0, steps=500, delay=0.1)
+graph_walk = DihedralGraphWalk(n=4)
+graph_walk.random_walk(start_node=0, steps=500, delay=0.2)

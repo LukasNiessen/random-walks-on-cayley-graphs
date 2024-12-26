@@ -164,17 +164,18 @@ def animate_walk_3d(path: List[Tuple[int, int, int]], interval: int = 50):
     plt.show()
 
 
-dim = 3
+dim = 1
+steps = 1000
 anim_interval = 10
 
 if dim == 1:
-    path_1d = random_walk_1d(steps=100)
+    path_1d = random_walk_1d(steps)
     animate_walk_2d(path_1d, interval=anim_interval)
 
 elif dim == 2:
-    path_2d = random_walk_2d(steps=100)
+    path_2d = random_walk_2d(steps)
     animate_walk_2d(path_2d, interval=anim_interval)
 
 else:
-    path_3d = random_walk_3d(steps=1000)
+    path_3d = random_walk_3d(steps)
     animate_walk_3d(path_3d, interval=anim_interval)

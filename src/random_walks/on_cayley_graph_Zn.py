@@ -20,7 +20,7 @@ very informally, the definition of the critical value.
 verbose = True
 
 use_lambda_rw = True
-lambd = 5  # lambda > 1
+lambd = 3  # lambda > 1
 
 
 class CayleyGraphWalk:
